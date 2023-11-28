@@ -5,9 +5,9 @@ body:
   - type: checkboxes
     attributes:
       label: Prerequisites
+      required: true
       options:
         - label: I've [searched](https://github.com/accessibility-exchange/platform/issues) for existing issues
-          required: true
   - type: textarea
     attributes:
       label: Describe the bug
